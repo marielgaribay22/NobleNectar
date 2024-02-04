@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #BFBF99;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	background-color: #BFBF99;
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+}
+.navbar{
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	padding-left: 60px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #b25148;
+}
+.content h1{
+	font-size: 40px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #3B2625;
+}
+.content{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+@font-face{
+	font-family: myFont;
+	src: url("Birdsofparadise.ttf");
+}
+.content h2{
+	color: #833B39;
+	margin-top: 24px;
+	margin-bottom: 15px;
+}
+

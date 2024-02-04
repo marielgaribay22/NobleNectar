@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	background-color: #E8E1CF;
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+}
+.navbar{
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	padding-left: 60px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #b25148;
+}
+.content h1{
+	font-size: 40px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #b25148;
+}
+.content p{
+	font-size: 18px;
+	color: #75201E;
+}
+.content{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.feature-img{
+	height: 53%;
+	margin-bottom: 12%;
+	position: absolute;
+	bottom: 0;
+	right: 160px;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+}
+.longpicture{
+	height: 70vh;
+	width: 90%;
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+}
