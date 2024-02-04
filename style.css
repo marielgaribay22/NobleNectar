@@ -66,13 +66,3 @@ nav ul li a{
 	height: 100vh;
 	width: 100%;
 }
-.longpicture{
-	height: 70vh;
-	width: 90%;
-	background-position: center;
-	background-size: cover;
-	padding-left: 5%;
-	padding-right: 5%;
-	box-sizing: border-box;
-	position: relative;
-}
